@@ -1,0 +1,6 @@
+  Select p.*
+  ,c.*
+  from
+[dbo].[Product] as p
+Left Join
+[dbo].[Category] as c on p.CategoryId = c.Id
